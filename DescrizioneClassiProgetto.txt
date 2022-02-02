@@ -1,0 +1,38 @@
+Main
+    Viene istanziato un vettore di cScreen. Ogni figlio di cScreen è una schermata dell'applicazione.
+    La gestione delle schermate viene eseguita all'interno di un loop e funziona in questo modo :
+        - Si parte dalla schermata di menu ( 0 )
+        - //TODO
+
+cScreen.cpp
+    Interfaccia per la gestione delle schermate del gioco. Implementa i metodi in comune tra le schermate ovvero Run e Reset.
+    Run() serve per avviare la schermata e quindi vederla a video
+    Reset() serve per riportare la schermata alla sua versione iniziale, inclusi tutti gli oggetti al suo interno
+
+Screen_game.cpp
+    E' la classe dedicata alla schermata del gioco.
+    Il metodo Run(), se è la prima volta che viene avviato, invoca il metodo CreateRandomPlanets() inoltre fa partire un ciclo nel quale gestisce i due scenari del gioco: Galaxy e Planet.
+    Il metodo CreateRandomPlanets() crea degli oggetti Planet casuali che vengono aggiunti allo scenario corrente.
+    Lo scenario Galaxy viene gestito dal metodo runGalaxy(), è la fase in cui l'astronave si trova a navigare la galassia per poter scegliere un pianeta.
+        Quando viene rilevato che la navicella si trova sopra ad un pianeta, quest'ultimo viene evidenziato abilitando l'input che permette di entrare al suo interno.
+        Quando tutti i pianeti sono distrutti si ha la possibilità di superare uno dei quattro bordi della galassia, facendo ciò viene lanciato di nuovo il metodo CreateRandomPlanets() e avviene quindi il 		passaggio ad una galassia successiva.
+    Lo scenario planet viene gestito dal metodo runPlanet()
+        //TODO
+
+Screen_menu.cpp
+    E' la classe dedicata alla schermata del menu.
+    Al primo avvio viene eseguito un effetto di "intro" impostando lentamente la luminosità dell'immagine sempre piu alta. La velocità di questa intro è configurabile.
+    Il metodo Run() si basa su un ciclo all'interno del quale vengono analizzati gli eventuali input e si comporta di conseguenza. Si può navigare il menu attraverso i tasti direzionali.
+        Se si preme il tasto invio viene confermata la scelta. Le scelte possono essere di 3 tipi:
+            - Play : Viene visualizzato soltanto se non si è in gioco, premendo Invio si vedrà un breve tutorial testuale e si verrà reindirizzati alla schermata di gioco.
+            - Continue : Viene visualizzato soltanto se si accede al menu dalla schermata di gioco. premendo Invio si torna al gioco.
+            - Exit : Se non si è in gioco, l'applicazione viene chiusa. Se viene premuto mentre si sta giocando, verranno resettate tutte le schermata ed è come se si iniziasse un nuovo gioco visualizzando il menu iniziale.
+
+Screen_results.cpp
+    E' la classe dedicata alla schermata dei punteggi.
+    Il costruttore setta le proprietà (Font, Font size, valore ecc.) delle labels che verranno visualizzate successivamente a schermo.
+    Il metodo Run() visualizza una schermata che ti permette di inserire il "nickname" attraverso un meccanismo di scorrimento delle lettere. Una volta terminato viene lanciato il metodo finalScreen().
+    Il motodo finalScreen() salva il punteggio in un file confrontandolo con gli eventuali altri punteggi presenti al suo interno. Successivamente vengono visualizzati i 10 punteggi piu alti salvati sul file.
+
+Screens.cpp
+    Includo cScreen e includo tutte le finestre dell'applicazione
