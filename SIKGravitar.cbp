@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AntiGravitar_" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AntiGravitar_" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="AntiGravitar/AntiGravitar_/include/Objects/Entities" />
+					<Add directory="include/Objects/Entities" />
+					<Add directory="include/Objects/Screens" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AntiGravitar_" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="AntiGravitar/AntiGravitar_/include/Objects/Entities" />
+					<Add directory="include/Objects/Entities" />
+					<Add directory="include/Objects/Screens" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Objects/Entities/Bullet.h" />
+		<Unit filename="include/Objects/Entities/Bunker.h" />
+		<Unit filename="include/Objects/Entities/BunkerA.h" />
+		<Unit filename="include/Objects/Entities/BunkerB.h" />
+		<Unit filename="include/Objects/Entities/Fuel.h" />
+		<Unit filename="include/Objects/Entities/Planet.h" />
+		<Unit filename="include/Objects/Entities/SpaceShip.h" />
+		<Unit filename="include/Objects/Entities/Terreno.h" />
+		<Unit filename="include/Objects/Game.h" />
+		<Unit filename="include/Objects/Screens/Screen_game.h" />
+		<Unit filename="include/Objects/Screens/Screen_menu.h" />
+		<Unit filename="include/Objects/Screens/Screen_results.h" />
+		<Unit filename="include/Objects/Screens/Screens.h" />
+		<Unit filename="include/Objects/Screens/cScreen.h" />
+		<Unit filename="include/main.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="res/fonts/Orbitronio.ttf" />
+		<Unit filename="res/images/Objects/Pianeta1.png" />
+		<Unit filename="res/images/Objects/Pianeta2.png" />
+		<Unit filename="res/images/Objects/Pianeta3.png" />
+		<Unit filename="res/images/Objects/Pianeta4.png" />
+		<Unit filename="res/images/Objects/Pianeta5.png" />
+		<Unit filename="res/images/Objects/Pianeta6.png" />
+		<Unit filename="res/images/backgrounds/menu_bg.png" />
+		<Unit filename="res/images/backgrounds/tutorial_bg.png" />
+		<Unit filename="res/ladder.txt" />
+		<Unit filename="src/Objects/Entities/Bullet.cpp" />
+		<Unit filename="src/Objects/Entities/Bunker.cpp" />
+		<Unit filename="src/Objects/Entities/BunkerA.cpp" />
+		<Unit filename="src/Objects/Entities/BunkerB.cpp" />
+		<Unit filename="src/Objects/Entities/Fuel.cpp" />
+		<Unit filename="src/Objects/Entities/Planet.cpp" />
+		<Unit filename="src/Objects/Entities/SpaceShip.cpp" />
+		<Unit filename="src/Objects/Entities/Terreno.cpp" />
+		<Unit filename="src/Objects/Game.cpp" />
+		<Unit filename="src/Objects/Screens/Screen_game.cpp" />
+		<Unit filename="src/Objects/Screens/Screen_menu.cpp" />
+		<Unit filename="src/Objects/Screens/Screen_results.cpp" />
+		<Unit filename="src/Objects/Screens/Screens.cpp" />
+		<Unit filename="src/Objects/Screens/cScreen.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,824 @@
+# depslib dependency file v1.0
+1568223894 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1568223878 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1568452764 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+
+1558187897 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1568223880 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1558187912 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1558187922 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1558187952 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1557507881 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"../include/Objects/Screens/Screens.h"
+
+1580149095 source:/home/ilaria/Scrivania/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1580148660 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1580148944 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1580146417 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1580146422 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1580149640 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1580148614 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1558187952 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1558187859 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1568223889 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	<random>
+
+1558187822 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1568449772 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1568223894 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1568223878 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1575776068 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1575772796 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1575775664 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1558187859 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1558187822 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1558187897 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1568223880 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1558187912 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1558187922 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1558187952 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1558276888 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Terreno.cpp
+	"Terreno.h"
+
+1575772291 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1558277568 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/OggettiDelPianeta.cpp
+	"OggettiDelPianeta.h"
+
+1558283858 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/OggettiDelPianeta.h
+	<SFML/Graphics.hpp>
+
+1558277607 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Bunker.cpp
+	"Bunker.h"
+
+1575775664 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1558277607 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1558279698 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1575767862 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1558277568 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/OggettiDelPianeta.cpp
+	"OggettiDelPianeta.h"
+
+1558276888 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1558277607 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1568451416 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	"SpaceShip.h"
+	<SFML/Graphics.hpp>
+
+1568452851 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1558279698 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1568223882 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Entities/Fuel.h
+
+1558276888 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1568223873 /home/konrad/Desktop/AntiGravitar/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1559479385 source:/home/konrad/Desktop/AntiGravitar/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1568223873 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1559479385 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1580147490 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"BunkerA.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1580147897 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1580147710 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1580146895 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1580148502 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1580146935 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1580147424 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1580147325 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1580147532 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1580147751 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1580147839 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1580148101 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1573755427 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1575774509 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1573995418 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/BunkerA.cpp
+	"BunkerA.h"
+
+1573996510 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/BunkerA.h
+	<Bunker.h>
+
+1573997336 source:/home/ilaria/Scrivania/Progetto/AntiGravitar_/src/Objects/Entities/BunkerB.cpp
+	"BunkerB.h"
+
+1573997438 /home/ilaria/Scrivania/Progetto/AntiGravitar_/include/Objects/Entities/BunkerB.h
+	<Bunker.h>
+
+1568223894 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1568223878 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1574094360 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1573988947 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1573811705 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1574091448 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1574093512 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1574095868 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1573994520 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1568223873 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1573755427 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1558277607 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1558279698 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1558187859 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1558187822 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1558276888 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1558187897 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1568223880 /home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1558187912 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1558187922 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1559479385 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1558187952 source:/home/ilaria/Scrivania/AntiGravitar_19_11_17/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1568223894 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1568223878 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1579448433 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1579448337 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"BunkerA.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1575772291 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1575775664 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1579361411 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1575767862 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1575774509 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1568223873 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1573755427 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1558277607 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1558279698 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1558187859 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1558187822 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1558276888 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1558187897 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1568223880 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1558187912 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1558187922 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1559479385 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1558187952 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1579358448 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/BunkerA.cpp
+	"BunkerA.h"
+
+1579360780 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/BunkerA.h
+	"Bunker.h"
+	"Terreno.h"
+
+1579358444 source:/home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/src/Objects/Entities/BunkerB.cpp
+	"BunkerB.h"
+
+1573997438 /home/konrad/Desktop/Progetto/Progetto/AntiGravitar_19_12_08-versione2/AntiGravitar_/include/Objects/Entities/BunkerB.h
+	<Bunker.h>
+
+1568223894 source:/home/ilaria/Scaricati/AntiGravitar_/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1568223878 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1579455753 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1579448468 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"BunkerA.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1575772291 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1579454709 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1579361411 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1579360780 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/BunkerA.h
+	"Bunker.h"
+	"Terreno.h"
+
+1579455891 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1575774509 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1568223873 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1573755427 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1558277607 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1579358448 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/BunkerA.cpp
+	"BunkerA.h"
+
+1579358444 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/BunkerB.cpp
+	"BunkerB.h"
+
+1573997438 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Entities/BunkerB.h
+	<Bunker.h>
+
+1558279698 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1558187859 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1558187822 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1558276888 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1558187897 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1568223880 /home/ilaria/Scaricati/AntiGravitar_/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1558187912 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1558187922 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1559479385 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1558187952 source:/home/ilaria/Scaricati/AntiGravitar_/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
+1579360780 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/BunkerA.h
+	"Bunker.h"
+	"Terreno.h"
+
+1580146660 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1580146693 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1579358448 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/BunkerA.cpp
+	"BunkerA.h"
+
+1579358444 source:/home/ilaria/Scrivania/AntiGravitar_/src/Objects/Entities/BunkerB.cpp
+	"BunkerB.h"
+
+1573997438 /home/ilaria/Scrivania/AntiGravitar_/include/Objects/Entities/BunkerB.h
+	<Bunker.h>
+
+1580149095 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"include/Objects/Screens/Screens.h"
+
+1559479000 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Screens/Screens.h
+	"cScreen.h"
+	"Screen_menu.h"
+	"Screen_game.h"
+	"Screen_results.h"
+
+1568223875 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Screens/cScreen.h
+	<SFML/Graphics.hpp>
+
+1580148660 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Screens/Screen_menu.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<thread>
+	<chrono>
+
+1580148944 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Screens/Screen_game.h
+	<iostream>
+	"cScreen.h"
+	<SFML/Graphics.hpp>
+	<random>
+	"../Entities/Planet.h"
+	"SpaceShip.h"
+	"Terreno.h"
+	"Fuel.h"
+	"Bullet.h"
+
+1580147490 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/Planet.h
+	<SFML/Graphics.hpp>
+	"Terreno.h"
+	"Bunker.h"
+	"BunkerA.h"
+	"Fuel.h"
+	"Bullet.h"
+	<random>
+
+1580147897 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/Terreno.h
+	<random>
+	<SFML/Graphics.hpp>
+	"SpaceShip.h"
+	<iostream>
+
+1580147710 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/SpaceShip.h
+	<SFML/Graphics.hpp>
+
+1580146895 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/Bunker.h
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1579360780 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/BunkerA.h
+	"Bunker.h"
+	"Terreno.h"
+
+1580147325 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/Fuel.h
+	"SpaceShip.h"
+	"Terreno.h"
+	<SFML/Graphics.hpp>
+
+1580146660 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/Bullet.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+
+1580148502 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Screens/Screen_results.h
+	"cScreen.h"
+	<fstream>
+	<iostream>
+
+1580146693 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/Bullet.cpp
+	"Bullet.h"
+
+1581447702 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/Bunker.cpp
+	"Bunker.h"
+
+1579358448 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/BunkerA.cpp
+	"BunkerA.h"
+
+1579358444 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/BunkerB.cpp
+	"BunkerB.h"
+
+1573997438 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Entities/BunkerB.h
+	<Bunker.h>
+
+1581447799 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/Fuel.cpp
+	"Fuel.h"
+
+1581447874 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/Planet.cpp
+	"Planet.h"
+
+1581447892 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/SpaceShip.cpp
+	"SpaceShip.h"
+
+1581448098 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Entities/Terreno.cpp
+	"Terreno.h"
+
+1580146417 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Game.cpp
+	"../../include/Objects/Game.h"
+
+1580146422 /home/ilaria/Scrivania/Progetto S I K/SIKGravitar/include/Objects/Game.h
+	<SFML/Graphics.hpp>
+
+1558187904 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Screens/cScreen.cpp
+	"../../../include/Objects/Screens/cScreen.h"
+
+1581447356 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Screens/Screen_game.cpp
+	"../../../include/Objects/Screens/Screen_game.h"
+
+1580148614 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Screens/Screen_menu.cpp
+	"../../../include/Objects/Screens/Screen_menu.h"
+
+1581447639 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Screens/Screen_results.cpp
+	"Screen_results.h"
+
+1558187952 source:/home/ilaria/Scrivania/Progetto S I K/SIKGravitar/src/Objects/Screens/Screens.cpp
+	"../../../include/Objects/Screens/Screens.h"
+
